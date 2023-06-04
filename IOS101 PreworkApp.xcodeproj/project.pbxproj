@@ -24,7 +24,7 @@
 		8C124D3A2A2C27C800A3288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C124D3C2A2C27C900A3288B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C124D3F2A2C27C900A3288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C124D412A2C27C900A3288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C124D412A2C27C900A3288B /* IOS101 PreworkApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "IOS101 PreworkApp.xcodeproj"; path = "../IOS101 PreworkApp.xcodeproj"; sourceTree = "<group>"; };
 		8C124D472A2C2CCE00A3288B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				8C124D472A2C2CCE00A3288B /* README.md */,
-				8C124D322A2C27C800A3288B /* Main */,
+				8C124D322A2C27C800A3288B /* IOS101 PreworkApp */,
 				8C124D312A2C27C800A3288B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C124D322A2C27C800A3288B /* Main */ = {
+		8C124D322A2C27C800A3288B /* IOS101 PreworkApp */ = {
 			isa = PBXGroup;
 			children = (
 				8C124D332A2C27C800A3288B /* AppDelegate.swift */,
@@ -65,9 +65,14 @@
 				8C124D392A2C27C800A3288B /* Main.storyboard */,
 				8C124D3C2A2C27C900A3288B /* Assets.xcassets */,
 				8C124D3E2A2C27C900A3288B /* LaunchScreen.storyboard */,
-				8C124D412A2C27C900A3288B /* Info.plist */,
+				8C124D412A2C27C900A3288B /* IOS101 PreworkApp.xcodeproj */,
 			);
-			path = Main;
+			path = "IOS101 PreworkApp";
+			sourceTree = "<group>";
+		};
+		8C81F3592A2C41EB00811901 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +121,12 @@
 			mainGroup = 8C124D272A2C27C800A3288B;
 			productRefGroup = 8C124D312A2C27C800A3288B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8C81F3592A2C41EB00811901 /* Products */;
+					ProjectRef = 8C124D412A2C27C900A3288B /* IOS101 PreworkApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8C124D2F2A2C27C800A3288B /* IOS101 PreworkApp */,
