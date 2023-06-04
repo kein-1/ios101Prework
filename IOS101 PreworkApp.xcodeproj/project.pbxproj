@@ -42,6 +42,7 @@
 		8C124D272A2C27C800A3288B = {
 			isa = PBXGroup;
 			children = (
+				8C124D472A2C2CCE00A3288B /* README.md */,
 				8C124D322A2C27C800A3288B /* Main */,
 				8C124D312A2C27C800A3288B /* Products */,
 			);
@@ -65,7 +66,6 @@
 				8C124D3C2A2C27C900A3288B /* Assets.xcassets */,
 				8C124D3E2A2C27C900A3288B /* LaunchScreen.storyboard */,
 				8C124D412A2C27C900A3288B /* Info.plist */,
-				8C124D472A2C2CCE00A3288B /* README.md */,
 			);
 			path = Main;
 			sourceTree = "<group>";
